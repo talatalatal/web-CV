@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+header {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #ff7eb3;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff4c7b;
+}
+
+
+.intro {
+    padding: 60px;
+    text-align: center;
+    background: radial-gradient(circle at center, #ffe0f7, #ff91c5);
+    color: #333;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+.education {
+    padding: 40px;
+    background-color: #fff0f6;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.education h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.education p, .education ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.education ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+.contact {
+    padding: 40px;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #ff4c7b;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.contact a:hover {
+    background-color: #ff2747;
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .intro, .education, .contact {
+        padding: 30px;
+        margin: 10px;
+    }
+}
+
+.projects {
+    padding: 40px;
+    background-color: #fff0f6;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.project-item {
+    background-color: #ffe0f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.project-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff758c;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.project-item a:hover {
+    background-color: #ff4c7b;
+}
